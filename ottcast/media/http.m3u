@@ -1,0 +1,4 @@
+#EXTM3U source=http cache=2M name="HTTP"
+
+#EXTINF:0, Brodilo TV
+http://88.198.17.117:8101

@@ -1,0 +1,10 @@
+#EXTM3U source=hls via=@jurnaltv cache=1M name="JurnalTV"
+
+#EXTINF:0 stream=3 cache=4M, Live HD 1080p
+http://www.jurnaltv.md/page/live
+
+#EXTINF:0 stream=2 cache=2M, Live HD 720p
+http://www.jurnaltv.md/page/live
+
+#EXTINF:0 stream=0, Live SD 360p
+http://www.jurnaltv.md/page/live

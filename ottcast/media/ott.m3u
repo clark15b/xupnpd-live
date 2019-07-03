@@ -1,0 +1,28 @@
+#EXTM3U source=hls cache=1M name="HLS"
+
+#EXTINF:0 cache=2M, СТРК HD
+http://sochi-strk.ru:1936/strk/strk.stream/playlist.m3u8
+
+#EXTINF:0 cache=2M, 43 HD
+http://sochi-strk.ru:1936/strk/43Kanal.stream/playlist.m3u8
+
+#EXTINF:0, Звезда
+http://btv-net.mediacdn.ru/TVB8/zvezda/playlist.m3u8
+
+#EXTINF:-1 cache=2M, TV Halle (German)
+http://62.113.210.250/medienasa-live/_definst_/mp4:tvhalle_high/playlist.m3u8
+
+#EXTINF:0, World Fashion Channel (рус.)
+http://btv-net.mediacdn.ru/TVB8/wfhd/playlist.m3u8
+
+#EXTINF:-1, Russia Today Doc 1
+http://rtmp.api.rt.com/hls/rtdru.m3u8
+
+#EXTINF:-1, RBK
+http://online.video.rbc.ru/online/rbctv_480p/index.m3u8
+
+#EXTINF:0, Мир
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+
+#EXTINF:0, Publika.md
+http://livebeta.publika.md/LIVE/P/1500.m3u8

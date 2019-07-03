@@ -1,0 +1,16 @@
+#EXTM3U tvg-name="Other"
+
+#EXTINF:0, 43 HD
+http://sochi-strk.ru:1936/strk/43Kanal.stream/playlist.m3u8
+
+#EXTINF:0, TV Halle
+http://62.113.210.250/medienasa-live/_definst_/mp4:tvhalle_high/playlist.m3u8
+
+#EXTINF:0, Publika
+http://livebeta.publika.md/LIVE/P/1500.m3u8
+
+#EXTINF:0 via=jurnaltv stream=3, JurnalTV
+http://www.jurnaltv.md/page/live
+
+#EXTINF:0, ЧГТРК Грозный
+https://live2.mediacdn.ru/sr1/grozny/chunklist_b1498000.m3u8

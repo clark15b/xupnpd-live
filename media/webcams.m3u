@@ -1,0 +1,76 @@
+#EXTM3U tvg-name="Webcams"
+
+#EXTINF:0, Студия Говорит Москва
+http://video.govoritmoskva.ru:8080/live/rufmbk-1/index.m3u8
+
+#EXTINF:0, Студия Радио Шансон
+http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live_hiq/index.m3u8
+
+#EXTINF:0, Abbey Road
+http://videos3.earthcam.com/fecnetwork/AbbeyRoadHD1.flv/playlist.m3u8
+
+#EXTINF:0, Saipan Beach
+http://videos3.earthcam.com/fecnetwork/10610.flv/playlist.m3u8
+
+#EXTINF:0, Times Square
+http://videos3.earthcam.com/fecnetwork/hdtimes10.flv/playlist.m3u8
+
+#EXTINF:0, Budapest
+http://videos3.earthcam.com/fecnetwork/15041.flv/playlist.m3u8
+
+#EXTINF:0, Tokyo
+http://videos3.earthcam.com/fecnetwork/tokyo1.flv/playlist.m3u8
+
+#EXTINF:0, Toronto
+http://videos3.earthcam.com/fecnetwork/9299.flv/playlist.m3u8
+
+#EXTINF:0, New Zealand
+http://videos3.earthcam.com/fecnetwork/9189.flv/playlist.m3u8
+
+#EXTINF:0, Jerusalem
+http://videos3.earthcam.com/fecnetwork/7949.flv/playlist.m3u8
+
+#EXTINF:0, Miami beach
+http://videos3.earthcam.com/fecnetwork/3273.flv/playlist.m3u8
+
+#EXTINF:0, New Orleans
+http://videos3.earthcam.com/fecnetwork/4282.flv/playlist.m3u8
+
+#EXTINF:0, Lauderdale By The Sea
+http://videos3.earthcam.com/fecnetwork/9313.flv/playlist.m3u8
+
+#EXTINF:0, Wall Street
+http://videos3.earthcam.com/fecnetwork/chargingbull.flv/playlist.m3u8
+
+#EXTINF:0, Brooklyn Bridge
+http://videos3.earthcam.com/fecnetwork/3983.flv/playlist.m3u8
+
+#EXTINF:0, Chicago
+http://videos3.earthcam.com/fecnetwork/13661.flv/playlist.m3u8
+
+#EXTINF:0, Statue of Liberty
+http://videos3.earthcam.com/fecnetwork/libertyHD1.flv/playlist.m3u8
+
+#EXTINF:0, Niagara Falls
+http://videos3.earthcam.com/fecnetwork/7382.flv/playlist.m3u8
+
+#EXTINF:0, Gas Monkey Garage
+http://videos3.earthcam.com/fecnetwork/13077.flv/playlist.m3u8
+
+#EXTINF:0, Africa - Cat-EYE
+http://africacams-lh.akamaihd.net/i/Africam_CatEye@686099/master.m3u8
+
+#EXTINF:0, Africa - Nkorho
+http://africacams-lh.akamaihd.net/i/Africam_Nkorho@686100/master.m3u8
+
+#EXTINF:0, Africa - Olifants River
+http://africacams-lh.akamaihd.net/i/Africam_Olifants@686101/master.m3u8
+
+#EXTINF:0, Africa - Tembe
+http://stream.africam.com:1935/tm/tm.stream_source/playlist.m3u8
+
+#EXTINF:0 via=wetter, Prag - Karlsbrücke - Hotel Kampa Garden
+https://www.wetter.com/hd-live-webcams/tschechien/prague/556ea720e8c1b/
+
+#EXTINF:0 via=skylinewebcams, Prag - Die Karlsbrücke
+https://www.skylinewebcams.com/de/webcam/czech-republic/prague/prague/old-town-bridge-tower.html

@@ -1,0 +1,1100 @@
+#EXTM3U source=hls via=@kineskop retry=300 cache=2M name="Kineskop.tv"
+
+#EXTINF:-1, Первый Канал
+http://kineskop.tv/?page=watch&ch=119
+
+#EXTINF:-1 cache=4M, Первый Канал HD
+http://kineskop.tv/?page=watch&ch=250
+
+#EXTINF:-1, Первый Канал Европа
+http://kineskop.tv/?page=watch&ch=425
+
+#EXTINF:-1, Первый Канал +2
+http://kineskop.tv/?page=watch&ch=372
+
+#EXTINF:-1, Первый Канал +4
+http://kineskop.tv/?page=watch&ch=373
+
+#EXTINF:-1, Первый Канал +6
+http://kineskop.tv/?page=watch&ch=431
+
+#EXTINF:-1, Россия 1
+http://kineskop.tv/?page=watch&ch=79
+
+#EXTINF:-1 cache=4M, Россия HD
+http://kineskop.tv/?page=watch&ch=251
+
+#EXTINF:-1, Россия 1 +2
+http://kineskop.tv/?page=watch&ch=374
+
+#EXTINF:-1, Россия 1 +4
+http://kineskop.tv/?page=watch&ch=375
+
+#EXTINF:-1, Россия 1 +6
+http://kineskop.tv/?page=watch&ch=432
+
+#EXTINF:-1, РТР-Планета
+http://kineskop.tv/?page=watch&ch=42
+
+#EXTINF:-1, Россия К
+http://kineskop.tv/?page=watch&ch=82
+
+#EXTINF:-1, НТВ
+http://kineskop.tv/?page=watch&ch=98
+
+#EXTINF:-1 cache=4M, НТВ HD
+http://kineskop.tv/?page=watch&ch=256
+
+#EXTINF:-1, НТВ +2
+http://kineskop.tv/?page=watch&ch=406
+
+#EXTINF:-1, НТВ +4
+http://kineskop.tv/?page=watch&ch=409
+
+#EXTINF:-1, НТВ +6
+http://kineskop.tv/?page=watch&ch=435
+
+#EXTINF:-1, НТВ Мир
+http://kineskop.tv/?page=watch&ch=179
+
+#EXTINF:-1, РЕН ТВ
+http://kineskop.tv/?page=watch&ch=102
+
+#EXTINF:-1, ТНТ
+http://kineskop.tv/?page=watch&ch=114
+
+#EXTINF:-1 cache=4M, ТНТ HD
+http://kineskop.tv/?page=watch&ch=429
+
+#EXTINF:-1, ТНТ +2
+http://kineskop.tv/?page=watch&ch=384
+
+#EXTINF:-1, ТНТ +4
+http://kineskop.tv/?page=watch&ch=385
+
+#EXTINF:-1, ТНТ +6
+http://kineskop.tv/?page=watch&ch=433
+
+#EXTINF:-1, Пятница!
+http://kineskop.tv/?page=watch&ch=273
+
+#EXTINF:-1, Пятница +2
+http://kineskop.tv/?page=watch&ch=410
+
+#EXTINF:-1, Пятница +4
+http://kineskop.tv/?page=watch&ch=411
+
+#EXTINF:-1, Пятница +6
+http://kineskop.tv/?page=watch&ch=437
+
+#EXTINF:-1, Звезда
+http://kineskop.tv/?page=watch&ch=49
+
+#EXTINF:-1, ТНТ 4
+http://kineskop.tv/?page=watch&ch=93
+
+#EXTINF:-1, Время
+http://kineskop.tv/?page=watch&ch=120
+
+#EXTINF:-1, ТВ 3
+http://kineskop.tv/?page=watch&ch=223
+
+#EXTINF:-1, ТВ 3 +2
+http://kineskop.tv/?page=watch&ch=442
+
+#EXTINF:-1, ТВ 3 +4
+http://kineskop.tv/?page=watch&ch=443
+
+#EXTINF:-1, ТВ 3 +6
+http://kineskop.tv/?page=watch&ch=439
+
+#EXTINF:-1, 5 Канал
+http://kineskop.tv/?page=watch&ch=106
+
+#EXTINF:-1, Санкт-Петербург
+http://kineskop.tv/?page=watch&ch=466
+
+#EXTINF:-1, Точка ТВ
+http://kineskop.tv/?page=watch&ch=481
+
+#EXTINF:-1, Перец international
+http://kineskop.tv/?page=watch&ch=485
+
+#EXTINF:-1, Сарафан
+http://kineskop.tv/?page=watch&ch=111
+
+#EXTINF:-1, Мир
+http://kineskop.tv/?page=watch&ch=122
+
+#EXTINF:-1 cache=4M, Мир HD
+http://kineskop.tv/?page=watch&ch=460
+
+#EXTINF:-1, RTVi
+http://kineskop.tv/?page=watch&ch=182
+
+#EXTINF:-1, Ю
+http://kineskop.tv/?page=watch&ch=220
+
+#EXTINF:-1, Ностальгия
+http://kineskop.tv/?page=watch&ch=221
+
+#EXTINF:-1, Жара
+http://kineskop.tv/?page=watch&ch=234
+
+#EXTINF:-1, ОТР
+http://kineskop.tv/?page=watch&ch=299
+
+#EXTINF:-1, Просвещение
+http://kineskop.tv/?page=watch&ch=300
+
+#EXTINF:-1, 360° Подмосковье
+http://kineskop.tv/?page=watch&ch=277
+
+#EXTINF:-1, Москва 24
+http://kineskop.tv/?page=watch&ch=279
+
+#EXTINF:-1, Москва Доверие
+http://kineskop.tv/?page=watch&ch=280
+
+#EXTINF:-1, Первый Образовательный
+http://kineskop.tv/?page=watch&ch=298
+
+#EXTINF:-1, Спас
+http://kineskop.tv/?page=watch&ch=312
+
+#EXTINF:-1, ТДК
+http://kineskop.tv/?page=watch&ch=310
+
+#EXTINF:-1 cache=4M, RT Док HD
+http://kineskop.tv/?page=watch&ch=386
+
+#EXTINF:-1, FashionBox
+http://kineskop.tv/?page=watch&ch=561
+
+#EXTINF:-1, Россия_24
+http://kineskop.tv/?page=watch&ch=80
+
+#EXTINF:-1, Известия
+http://kineskop.tv/?page=watch&ch=494
+
+#EXTINF:-1, РБК
+http://kineskop.tv/?page=watch&ch=104
+
+#EXTINF:-1, Мир 24
+http://kineskop.tv/?page=watch&ch=323
+
+#EXTINF:-1, Дождь
+http://kineskop.tv/?page=watch&ch=283
+
+#EXTINF:-1, Euronews Россия
+http://kineskop.tv/?page=watch&ch=241
+
+#EXTINF:-1, EuroNews English
+http://kineskop.tv/?page=watch&ch=500
+
+#EXTINF:-1, Russia Today
+http://kineskop.tv/?page=watch&ch=76
+
+#EXTINF:-1 cache=4M, Russia Today HD
+http://kineskop.tv/?page=watch&ch=391
+
+#EXTINF:-1, CNN International
+http://kineskop.tv/?page=watch&ch=140
+
+#EXTINF:-1, BBC World News
+http://kineskop.tv/?page=watch&ch=291
+
+#EXTINF:-1, Bloomberg
+http://kineskop.tv/?page=watch&ch=289
+
+#EXTINF:-1, Discovery Channel
+http://kineskop.tv/?page=watch&ch=96
+
+#EXTINF:-1 cache=4M, Discovery Channel HD
+http://kineskop.tv/?page=watch&ch=177
+
+#EXTINF:-1, National Geographic
+http://kineskop.tv/?page=watch&ch=92
+
+#EXTINF:-1 cache=4M, National Geographic HD
+http://kineskop.tv/?page=watch&ch=240
+
+#EXTINF:-1 cache=4M, Eureka HD
+http://kineskop.tv/?page=watch&ch=479
+
+#EXTINF:-1, Наука 2.0
+http://kineskop.tv/?page=watch&ch=109
+
+#EXTINF:-1, Discovery Science
+http://kineskop.tv/?page=watch&ch=206
+
+#EXTINF:-1, ID Xtra
+http://kineskop.tv/?page=watch&ch=203
+
+#EXTINF:-1, Galaxy
+http://kineskop.tv/?page=watch&ch=430
+
+#EXTINF:-1 cache=4M, Viasat Nature/History HD
+http://kineskop.tv/?page=watch&ch=528
+
+#EXTINF:-1, Animal Planet
+http://kineskop.tv/?page=watch&ch=97
+
+#EXTINF:-1 cache=4M, Animal Planet HD
+http://kineskop.tv/?page=watch&ch=255
+
+#EXTINF:-1, Домашние животные
+http://kineskop.tv/?page=watch&ch=71
+
+#EXTINF:-1, Nat Geo Wild
+http://kineskop.tv/?page=watch&ch=212
+
+#EXTINF:-1 cache=4M, Nat Geo Wild HD
+http://kineskop.tv/?page=watch&ch=252
+
+#EXTINF:-1, Da Vinci Learning
+http://kineskop.tv/?page=watch&ch=56
+
+#EXTINF:-1, История
+http://kineskop.tv/?page=watch&ch=275
+
+#EXTINF:-1, History
+http://kineskop.tv/?page=watch&ch=10
+
+#EXTINF:-1 cache=4M, History HD
+http://kineskop.tv/?page=watch&ch=231
+
+#EXTINF:-1, Моя Планета
+http://kineskop.tv/?page=watch&ch=101
+
+#EXTINF:-1, Travel
+http://kineskop.tv/?page=watch&ch=7
+
+#EXTINF:-1 cache=4M, Travel HD
+http://kineskop.tv/?page=watch&ch=142
+
+#EXTINF:-1, Travel+Adventure
+http://kineskop.tv/?page=watch&ch=469
+
+#EXTINF:-1 cache=4M, Приключения HD
+http://kineskop.tv/?page=watch&ch=478
+
+#EXTINF:-1, Оружие
+http://kineskop.tv/?page=watch&ch=463
+
+#EXTINF:-1, Загородная жизнь
+http://kineskop.tv/?page=watch&ch=11
+
+#EXTINF:-1, Усадьба
+http://kineskop.tv/?page=watch&ch=38
+
+#EXTINF:-1, Охота и рыбалка
+http://kineskop.tv/?page=watch&ch=34
+
+#EXTINF:-1, Диалоги о Рыбалке
+http://kineskop.tv/?page=watch&ch=202
+
+#EXTINF:-1 cache=4M, Дикая Рыбалка HD
+http://kineskop.tv/?page=watch&ch=554
+
+#EXTINF:-1 cache=4M, Дикая Охота HD
+http://kineskop.tv/?page=watch&ch=555
+
+#EXTINF:-1 cache=4M, Охотник и Рыболов HD
+http://kineskop.tv/?page=watch&ch=477
+
+#EXTINF:-1, Психология 21
+http://kineskop.tv/?page=watch&ch=72
+
+#EXTINF:-1, Вопросы и ответы
+http://kineskop.tv/?page=watch&ch=73
+
+#EXTINF:-1, Кухня ТВ
+http://kineskop.tv/?page=watch&ch=190
+
+#EXTINF:-1, Первый Вегетарианский
+http://kineskop.tv/?page=watch&ch=464
+
+#EXTINF:-1 cache=4M, Еда HD
+http://kineskop.tv/?page=watch&ch=493
+
+#EXTINF:-1, КВН ТВ
+http://kineskop.tv/?page=watch&ch=449
+
+#EXTINF:-1, TLC
+http://kineskop.tv/?page=watch&ch=201
+
+#EXTINF:-1 cache=4M, TLC HD
+http://kineskop.tv/?page=watch&ch=141
+
+#EXTINF:-1, Ocean TV
+http://kineskop.tv/?page=watch&ch=215
+
+#EXTINF:-1, Совершенно Секретно
+http://kineskop.tv/?page=watch&ch=216
+
+#EXTINF:-1, Tr!ck
+http://kineskop.tv/?page=watch&ch=480
+
+#EXTINF:-1, English Club
+http://kineskop.tv/?page=watch&ch=264
+
+#EXTINF:-1, Авто 24
+http://kineskop.tv/?page=watch&ch=288
+
+#EXTINF:-1, Зоопарк
+http://kineskop.tv/?page=watch&ch=37
+
+#EXTINF:-1, Бобер
+http://kineskop.tv/?page=watch&ch=48
+
+#EXTINF:-1, Т 24
+http://kineskop.tv/?page=watch&ch=59
+
+#EXTINF:-1, 365 Дней ТВ
+http://kineskop.tv/?page=watch&ch=184
+
+#EXTINF:-1, Авто Плюс
+http://kineskop.tv/?page=watch&ch=192
+
+#EXTINF:-1, Кто есть кто
+http://kineskop.tv/?page=watch&ch=198
+
+#EXTINF:-1, Доктор
+http://kineskop.tv/?page=watch&ch=50
+
+#EXTINF:-1, RTG
+http://kineskop.tv/?page=watch&ch=214
+
+#EXTINF:-1 cache=4M, RTG HD
+http://kineskop.tv/?page=watch&ch=530
+
+#EXTINF:-1, Мама
+http://kineskop.tv/?page=watch&ch=419
+
+#EXTINF:-1, Мужской
+http://kineskop.tv/?page=watch&ch=229
+
+#EXTINF:-1, Outdoor Channel
+http://kineskop.tv/?page=watch&ch=318
+
+#EXTINF:-1 cache=4M, HD Life
+http://kineskop.tv/?page=watch&ch=175
+
+#EXTINF:-1 cache=4M, Живая Природа HD
+http://kineskop.tv/?page=watch&ch=134
+
+#EXTINF:-1 cache=4M, Планета HD
+http://kineskop.tv/?page=watch&ch=533
+
+#EXTINF:-1 cache=4M, В мире животных HD
+http://kineskop.tv/?page=watch&ch=534
+
+#EXTINF:-1, Дикий
+http://kineskop.tv/?page=watch&ch=544
+
+#EXTINF:-1, Твой Дом
+http://kineskop.tv/?page=watch&ch=545
+
+#EXTINF:-1, Е
+http://kineskop.tv/?page=watch&ch=550
+
+#EXTINF:-1 cache=4M, Глазами Туриста HD
+http://kineskop.tv/?page=watch&ch=552
+
+#EXTINF:-1 cache=4M, Amedia Hit HD
+http://kineskop.tv/?page=watch&ch=553
+
+#EXTINF:-1, НТВ Право
+http://kineskop.tv/?page=watch&ch=547
+
+#EXTINF:-1, НТВ Стиль
+http://kineskop.tv/?page=watch&ch=548
+
+#EXTINF:-1, DocuBox
+http://kineskop.tv/?page=watch&ch=560
+
+#EXTINF:-1, Матч!
+http://kineskop.tv/?page=watch&ch=81
+
+#EXTINF:-1 cache=4M, Матч! HD
+http://kineskop.tv/?page=watch&ch=287
+
+#EXTINF:-1, Футбол 1
+http://kineskop.tv/?page=watch&ch=123
+
+#EXTINF:-1 cache=4M, Футбол 1 HD
+http://kineskop.tv/?page=watch&ch=573
+
+#EXTINF:-1, Футбол 2
+http://kineskop.tv/?page=watch&ch=172
+
+#EXTINF:-1 cache=4M, Футбол 2 HD
+http://kineskop.tv/?page=watch&ch=574
+
+#EXTINF:-1, Телеканал Футбол
+http://kineskop.tv/?page=watch&ch=270
+
+#EXTINF:-1 cache=4M, Матч Премьер HD
+http://kineskop.tv/?page=watch&ch=524
+
+#EXTINF:-1 cache=4M, Viasat Sport HD
+http://kineskop.tv/?page=watch&ch=529
+
+#EXTINF:-1 cache=4M, Матч! Игра HD
+http://kineskop.tv/?page=watch&ch=174
+
+#EXTINF:-1, Бокс ТВ
+http://kineskop.tv/?page=watch&ch=448
+
+#EXTINF:-1, Eurosport 1
+http://kineskop.tv/?page=watch&ch=90
+
+#EXTINF:-1 cache=4M, Eurosport 1 HD
+http://kineskop.tv/?page=watch&ch=176
+
+#EXTINF:-1, Eurosport 2
+http://kineskop.tv/?page=watch&ch=91
+
+#EXTINF:-1 cache=4M, Eurosport 2 HD
+http://kineskop.tv/?page=watch&ch=253
+
+#EXTINF:-1 cache=4M, Сетанта Спорт HD
+http://kineskop.tv/?page=watch&ch=513
+
+#EXTINF:-1 cache=4M, Сетанта Спорт+ HD
+http://kineskop.tv/?page=watch&ch=514
+
+#EXTINF:-1, Extreme Sports
+http://kineskop.tv/?page=watch&ch=211
+
+#EXTINF:-1, Точка Отрыва
+http://kineskop.tv/?page=watch&ch=482
+
+#EXTINF:-1, КХЛ
+http://kineskop.tv/?page=watch&ch=228
+
+#EXTINF:-1 cache=4M, КХЛ HD
+http://kineskop.tv/?page=watch&ch=456
+
+#EXTINF:-1 cache=4M, Конный Мир HD
+http://kineskop.tv/?page=watch&ch=322
+
+#EXTINF:-1, XSport
+http://kineskop.tv/?page=watch&ch=371
+
+#EXTINF:-1 cache=4M, Русский Экстрим HD
+http://kineskop.tv/?page=watch&ch=539
+
+#EXTINF:-1 cache=4M, Outdoor Channel HD
+http://kineskop.tv/?page=watch&ch=559
+
+#EXTINF:-1, Fast&FunBox
+http://kineskop.tv/?page=watch&ch=562
+
+#EXTINF:-1, FightBox
+http://kineskop.tv/?page=watch&ch=563
+
+#EXTINF:-1, M1 Global TV
+http://kineskop.tv/?page=watch&ch=532
+
+#EXTINF:-1, A1
+http://kineskop.tv/?page=watch&ch=295
+
+#EXTINF:-1, A2
+http://kineskop.tv/?page=watch&ch=311
+
+#EXTINF:-1, Amedia Premium
+http://kineskop.tv/?page=watch&ch=296
+
+#EXTINF:-1 cache=4M, Amedia Premium HD
+http://kineskop.tv/?page=watch&ch=139
+
+#EXTINF:-1, Amedia Hit
+http://kineskop.tv/?page=watch&ch=336
+
+#EXTINF:-1 cache=4M, Кино Премиум HD
+http://kineskop.tv/?page=watch&ch=471
+
+#EXTINF:-1 cache=4M, Кинопоказ HD 1
+http://kineskop.tv/?page=watch&ch=472
+
+#EXTINF:-1 cache=4M, Кинопоказ HD 2
+http://kineskop.tv/?page=watch&ch=473
+
+#EXTINF:-1 cache=4M, Наш Детектив HD
+http://kineskop.tv/?page=watch&ch=474
+
+#EXTINF:-1 cache=4M, Наш Кинороман HD
+http://kineskop.tv/?page=watch&ch=475
+
+#EXTINF:-1 cache=4M, Остросюжетное Кино HD
+http://kineskop.tv/?page=watch&ch=476
+
+#EXTINF:-1, Настоящее Страшное ТВ
+http://kineskop.tv/?page=watch&ch=67
+
+#EXTINF:-1, Киносвидание
+http://kineskop.tv/?page=watch&ch=196
+
+#EXTINF:-1, Кинохит
+http://kineskop.tv/?page=watch&ch=233
+
+#EXTINF:-1, Киномикс
+http://kineskop.tv/?page=watch&ch=199
+
+#EXTINF:-1, Киносемья
+http://kineskop.tv/?page=watch&ch=195
+
+#EXTINF:-1, Мужское Кино
+http://kineskop.tv/?page=watch&ch=189
+
+#EXTINF:-1, Кино ТВ
+http://kineskop.tv/?page=watch&ch=447
+
+#EXTINF:-1 cache=4M, Кино ТВ HD
+http://kineskop.tv/?page=watch&ch=274
+
+#EXTINF:-1 cache=4M, MGM HD
+http://kineskop.tv/?page=watch&ch=249
+
+#EXTINF:-1, CBS Reality
+http://kineskop.tv/?page=watch&ch=209
+
+#EXTINF:-1, Paramount Channel
+http://kineskop.tv/?page=watch&ch=75
+
+#EXTINF:-1, Paramount Comedy
+http://kineskop.tv/?page=watch&ch=113
+
+#EXTINF:-1, Fox
+http://kineskop.tv/?page=watch&ch=77
+
+#EXTINF:-1 cache=4M, Fox HD
+http://kineskop.tv/?page=watch&ch=527
+
+#EXTINF:-1, Fox Life
+http://kineskop.tv/?page=watch&ch=78
+
+#EXTINF:-1, Cinema
+http://kineskop.tv/?page=watch&ch=217
+
+#EXTINF:-1, Наше Новое Кино
+http://kineskop.tv/?page=watch&ch=316
+
+#EXTINF:-1, Дом Кино
+http://kineskop.tv/?page=watch&ch=121
+
+#EXTINF:-1, Родное Кино
+http://kineskop.tv/?page=watch&ch=197
+
+#EXTINF:-1, Русский Иллюзион
+http://kineskop.tv/?page=watch&ch=63
+
+#EXTINF:-1, Иллюзион +
+http://kineskop.tv/?page=watch&ch=64
+
+#EXTINF:-1, ТВ 21
+http://kineskop.tv/?page=watch&ch=65
+
+#EXTINF:-1, Еврокино
+http://kineskop.tv/?page=watch&ch=68
+
+#EXTINF:-1, Русский Бестселлер
+http://kineskop.tv/?page=watch&ch=99
+
+#EXTINF:-1, Русский Детектив
+http://kineskop.tv/?page=watch&ch=276
+
+#EXTINF:-1, Русский Роман
+http://kineskop.tv/?page=watch&ch=116
+
+#EXTINF:-1, Русская Комедия
+http://kineskop.tv/?page=watch&ch=421
+
+#EXTINF:-1, Кинокомедия
+http://kineskop.tv/?page=watch&ch=185
+
+#EXTINF:-1, Теленовелла
+http://kineskop.tv/?page=watch&ch=489
+
+#EXTINF:-1, Мир Сериала
+http://kineskop.tv/?page=watch&ch=40
+
+#EXTINF:-1, НТВ Сериал
+http://kineskop.tv/?page=watch&ch=468
+
+#EXTINF:-1, Супер
+http://kineskop.tv/?page=watch&ch=314
+
+#EXTINF:-1, Enter Film
+http://kineskop.tv/?page=watch&ch=9
+
+#EXTINF:-1, Sony Turbo
+http://kineskop.tv/?page=watch&ch=45
+
+#EXTINF:-1, Sony
+http://kineskop.tv/?page=watch&ch=86
+
+#EXTINF:-1, Sony Sci-Fi
+http://kineskop.tv/?page=watch&ch=87
+
+#EXTINF:-1, Киносерия
+http://kineskop.tv/?page=watch&ch=188
+
+#EXTINF:-1, AMC
+http://kineskop.tv/?page=watch&ch=207
+
+#EXTINF:-1, Эгоист
+http://kineskop.tv/?page=watch&ch=232
+
+#EXTINF:-1, Любимое Кино
+http://kineskop.tv/?page=watch&ch=236
+
+#EXTINF:-1 cache=4M, Дом Кино Премиум HD
+http://kineskop.tv/?page=watch&ch=458
+
+#EXTINF:-1 cache=4M, Кинопремьера HD
+http://kineskop.tv/?page=watch&ch=173
+
+#EXTINF:-1, Индийское Кино
+http://kineskop.tv/?page=watch&ch=186
+
+#EXTINF:-1, Zee TV
+http://kineskop.tv/?page=watch&ch=376
+
+#EXTINF:-1, Bollywood
+http://kineskop.tv/?page=watch&ch=426
+
+#EXTINF:-1 cache=4M, Bollywood HD
+http://kineskop.tv/?page=watch&ch=531
+
+#EXTINF:-1 cache=4M, Наше любимое HD
+http://kineskop.tv/?page=watch&ch=535
+
+#EXTINF:-1, Spike
+http://kineskop.tv/?page=watch&ch=541
+
+#EXTINF:-1, НТВ Хит
+http://kineskop.tv/?page=watch&ch=549
+
+#EXTINF:-1, Дорама
+http://kineskop.tv/?page=watch&ch=551
+
+#EXTINF:-1 cache=4M, Мужское Кино HD
+http://kineskop.tv/?page=watch&ch=556
+
+#EXTINF:-1 cache=4M, Киномикс HD
+http://kineskop.tv/?page=watch&ch=557
+
+#EXTINF:-1, FilmBox
+http://kineskop.tv/?page=watch&ch=564
+
+#EXTINF:-1, FilmBox Arthouse
+http://kineskop.tv/?page=watch&ch=565
+
+#EXTINF:-1, Nickelodeon
+http://kineskop.tv/?page=watch&ch=62
+
+#EXTINF:-1 cache=4M, Nickelodeon HD
+http://kineskop.tv/?page=watch&ch=526
+
+#EXTINF:-1, Cartoon Network
+http://kineskop.tv/?page=watch&ch=94
+
+#EXTINF:-1, Бумеранг
+http://kineskop.tv/?page=watch&ch=420
+
+#EXTINF:-1, Дисней
+http://kineskop.tv/?page=watch&ch=85
+
+#EXTINF:-1, Tiji
+http://kineskop.tv/?page=watch&ch=261
+
+#EXTINF:-1, Gulli
+http://kineskop.tv/?page=watch&ch=262
+
+#EXTINF:-1 cache=4M, Тлум HD
+http://kineskop.tv/?page=watch&ch=488
+
+#EXTINF:-1, Мульт
+http://kineskop.tv/?page=watch&ch=278
+
+#EXTINF:-1, Мультимания
+http://kineskop.tv/?page=watch&ch=105
+
+#EXTINF:-1, Карусель
+http://kineskop.tv/?page=watch&ch=61
+
+#EXTINF:-1, Карусель +2
+http://kineskop.tv/?page=watch&ch=440
+
+#EXTINF:-1, Карусель +4
+http://kineskop.tv/?page=watch&ch=441
+
+#EXTINF:-1, Карусель +6
+http://kineskop.tv/?page=watch&ch=438
+
+#EXTINF:-1, Nick Jr
+http://kineskop.tv/?page=watch&ch=268
+
+#EXTINF:-1, Nick Jr EN
+http://kineskop.tv/?page=watch&ch=538
+
+#EXTINF:-1, 2x2
+http://kineskop.tv/?page=watch&ch=89
+
+#EXTINF:-1, Детский
+http://kineskop.tv/?page=watch&ch=60
+
+#EXTINF:-1, JimJam
+http://kineskop.tv/?page=watch&ch=266
+
+#EXTINF:-1, Радость Моя
+http://kineskop.tv/?page=watch&ch=124
+
+#EXTINF:-1, Ani
+http://kineskop.tv/?page=watch&ch=146
+
+#EXTINF:-1, Детский Мир/Телеклуб
+http://kineskop.tv/?page=watch&ch=183
+
+#EXTINF:-1, В Гостях у Сказки
+http://kineskop.tv/?page=watch&ch=424
+
+#EXTINF:-1, Мультимузыка
+http://kineskop.tv/?page=watch&ch=115
+
+#EXTINF:-1, Малыш
+http://kineskop.tv/?page=watch&ch=543
+
+#EXTINF:-1, О!
+http://kineskop.tv/?page=watch&ch=546
+
+#EXTINF:-1 cache=4M, Russian MusicBox HD
+http://kineskop.tv/?page=watch&ch=540
+
+#EXTINF:-1, Europa Plus TV
+http://kineskop.tv/?page=watch&ch=112
+
+#EXTINF:-1, ТНТ Music
+http://kineskop.tv/?page=watch&ch=44
+
+#EXTINF:-1, Наше ТВ
+http://kineskop.tv/?page=watch&ch=467
+
+#EXTINF:-1, Муз ТВ
+http://kineskop.tv/?page=watch&ch=317
+
+#EXTINF:-1, Music Box UA
+http://kineskop.tv/?page=watch&ch=28
+
+#EXTINF:-1, M1
+http://kineskop.tv/?page=watch&ch=165
+
+#EXTINF:-1, OTV Music
+http://kineskop.tv/?page=watch&ch=167
+
+#EXTINF:-1 cache=4M, C Music TV HD
+http://kineskop.tv/?page=watch&ch=558
+
+#EXTINF:-1, Ru TV
+http://kineskop.tv/?page=watch&ch=260
+
+#EXTINF:-1, Музыка Первого
+http://kineskop.tv/?page=watch&ch=83
+
+#EXTINF:-1, ACB TV
+http://kineskop.tv/?page=watch&ch=451
+
+#EXTINF:-1 cache=4M, 1HD Music
+http://kineskop.tv/?page=watch&ch=459
+
+#EXTINF:-1, VH1 Europe
+http://kineskop.tv/?page=watch&ch=107
+
+#EXTINF:-1, Mezzo
+http://kineskop.tv/?page=watch&ch=267
+
+#EXTINF:-1 cache=4M, Mezzo Live HD
+http://kineskop.tv/?page=watch&ch=254
+
+#EXTINF:-1, MCM Top
+http://kineskop.tv/?page=watch&ch=210
+
+#EXTINF:-1, MTV RU
+http://kineskop.tv/?page=watch&ch=103
+
+#EXTINF:-1 cache=4M, MTV Live HD
+http://kineskop.tv/?page=watch&ch=525
+
+#EXTINF:-1, MTV Dance
+http://kineskop.tv/?page=watch&ch=208
+
+#EXTINF:-1, MTV Rocks
+http://kineskop.tv/?page=watch&ch=307
+
+#EXTINF:-1, MTV Hits
+http://kineskop.tv/?page=watch&ch=309
+
+#EXTINF:-1, Bridge TV
+http://kineskop.tv/?page=watch&ch=319
+
+#EXTINF:-1 cache=4M, Bridge HD
+http://kineskop.tv/?page=watch&ch=457
+
+#EXTINF:-1, Bridge TV Classic
+http://kineskop.tv/?page=watch&ch=452
+
+#EXTINF:-1, Bridge TV Dance
+http://kineskop.tv/?page=watch&ch=453
+
+#EXTINF:-1, Bridge TV Русский Хит
+http://kineskop.tv/?page=watch&ch=320
+
+#EXTINF:-1, Юмор ТВ
+http://kineskop.tv/?page=watch&ch=378
+
+#EXTINF:-1, Music Box Gold
+http://kineskop.tv/?page=watch&ch=379
+
+#EXTINF:-1, Russian MusicBox
+http://kineskop.tv/?page=watch&ch=380
+
+#EXTINF:-1, Шансон ТВ
+http://kineskop.tv/?page=watch&ch=25
+
+#EXTINF:-1, Ля Минор
+http://kineskop.tv/?page=watch&ch=187
+
+#EXTINF:-1, Интер
+http://kineskop.tv/?page=watch&ch=171
+
+#EXTINF:-1, Интер+
+http://kineskop.tv/?page=watch&ch=35
+
+#EXTINF:-1, Первый национальный
+http://kineskop.tv/?page=watch&ch=1
+
+#EXTINF:-1, ТРК Украина
+http://kineskop.tv/?page=watch&ch=2
+
+#EXTINF:-1 cache=4M, ТРК Украина HD
+http://kineskop.tv/?page=watch&ch=575
+
+#EXTINF:-1, НТН
+http://kineskop.tv/?page=watch&ch=150
+
+#EXTINF:-1, ICTV
+http://kineskop.tv/?page=watch&ch=168
+
+#EXTINF:-1, 1+1
+http://kineskop.tv/?page=watch&ch=148
+
+#EXTINF:-1, 1+1 International
+http://kineskop.tv/?page=watch&ch=164
+
+#EXTINF:-1, ТЕТ
+http://kineskop.tv/?page=watch&ch=3
+
+#EXTINF:-1, 5 Канал Украина
+http://kineskop.tv/?page=watch&ch=154
+
+#EXTINF:-1, СТБ
+http://kineskop.tv/?page=watch&ch=151
+
+#EXTINF:-1, Новый Канал
+http://kineskop.tv/?page=watch&ch=156
+
+#EXTINF:-1, Мега
+http://kineskop.tv/?page=watch&ch=155
+
+#EXTINF:-1, 2+2
+http://kineskop.tv/?page=watch&ch=149
+
+#EXTINF:-1, Пиксель
+http://kineskop.tv/?page=watch&ch=31
+
+#EXTINF:-1, НЛО ТВ
+http://kineskop.tv/?page=watch&ch=235
+
+#EXTINF:-1, 112 Украина
+http://kineskop.tv/?page=watch&ch=258
+
+#EXTINF:-1 cache=4M, 112 Украина HD
+http://kineskop.tv/?page=watch&ch=259
+
+#EXTINF:-1, Громадське ТВ
+http://kineskop.tv/?page=watch&ch=369
+
+#EXTINF:-1, Квартал ТВ
+http://kineskop.tv/?page=watch&ch=412
+
+#EXTINF:-1, Прямой UA
+http://kineskop.tv/?page=watch&ch=5
+
+#EXTINF:-1, ПлюсПлюс
+http://kineskop.tv/?page=watch&ch=6
+
+#EXTINF:-1, Малятко ТВ
+http://kineskop.tv/?page=watch&ch=26
+
+#EXTINF:-1, News 24
+http://kineskop.tv/?page=watch&ch=169
+
+#EXTINF:-1, Espreso TV
+http://kineskop.tv/?page=watch&ch=284
+
+#EXTINF:-1, Первый автомобильный
+http://kineskop.tv/?page=watch&ch=8
+
+#EXTINF:-1, News One
+http://kineskop.tv/?page=watch&ch=23
+
+#EXTINF:-1, К1
+http://kineskop.tv/?page=watch&ch=152
+
+#EXTINF:-1, Zik
+http://kineskop.tv/?page=watch&ch=370
+
+#EXTINF:-1, UA:Культура
+http://kineskop.tv/?page=watch&ch=21
+
+#EXTINF:-1, 7 Канал Одесса
+http://kineskop.tv/?page=watch&ch=398
+
+#EXTINF:-1, UA TV
+http://kineskop.tv/?page=watch&ch=536
+
+#EXTINF:-1, Черноморская ТРК
+http://kineskop.tv/?page=watch&ch=537
+
+#EXTINF:-1, Правда ТУТ
+http://kineskop.tv/?page=watch&ch=542
+
+#EXTINF:-1, Alpha GR
+http://kineskop.tv/?page=watch&ch=427
+
+#EXTINF:-1, Ant1 GR
+http://kineskop.tv/?page=watch&ch=428
+
+#EXTINF:-1, ERT 1 GR
+http://kineskop.tv/?page=watch&ch=363
+
+#EXTINF:-1, ERT 2 GR
+http://kineskop.tv/?page=watch&ch=364
+
+#EXTINF:-1, ERT 3 GR
+http://kineskop.tv/?page=watch&ch=366
+
+#EXTINF:-1, Star Channel GR
+http://kineskop.tv/?page=watch&ch=362
+
+#EXTINF:-1, Mega TV GR
+http://kineskop.tv/?page=watch&ch=360
+
+#EXTINF:-1, SKAI Tileorasi GR
+http://kineskop.tv/?page=watch&ch=361
+
+#EXTINF:-1, Armenia 1
+http://kineskop.tv/?page=watch&ch=461
+
+#EXTINF:-1, Armenia TV
+http://kineskop.tv/?page=watch&ch=368
+
+#EXTINF:-1, Kentron TV AM
+http://kineskop.tv/?page=watch&ch=462
+
+#EXTINF:-1, Shant TV
+http://kineskop.tv/?page=watch&ch=367
+
+#EXTINF:-1, Хабар KZ
+http://kineskop.tv/?page=watch&ch=349
+
+#EXTINF:-1, Хабар 24 KZ
+http://kineskop.tv/?page=watch&ch=389
+
+#EXTINF:-1, DW Deutsch
+http://kineskop.tv/?page=watch&ch=484
+
+#EXTINF:-1, ZDF
+http://kineskop.tv/?page=watch&ch=507
+
+#EXTINF:-1, KIKA
+http://kineskop.tv/?page=watch&ch=508
+
+#EXTINF:-1, RTL Deutschland
+http://kineskop.tv/?page=watch&ch=509
+
+#EXTINF:-1, RTL 2 Deutschland
+http://kineskop.tv/?page=watch&ch=510
+
+#EXTINF:-1, Super RTL Deutschland
+http://kineskop.tv/?page=watch&ch=511
+
+#EXTINF:-1, VOX Deutschland
+http://kineskop.tv/?page=watch&ch=512
+
+#EXTINF:-1, Yoshlar UZ
+http://kineskop.tv/?page=watch&ch=487
+
+#EXTINF:-1, Bolajon UZ
+http://kineskop.tv/?page=watch&ch=501
+
+#EXTINF:-1, Dunyo Boylab UZ
+http://kineskop.tv/?page=watch&ch=502
+
+#EXTINF:-1, Kinoteatr UZ
+http://kineskop.tv/?page=watch&ch=503
+
+#EXTINF:-1, Madaniyat va ma
+http://kineskop.tv/?page=watch&ch=504
+
+#EXTINF:-1, Mahalla UZ
+http://kineskop.tv/?page=watch&ch=505
+
+#EXTINF:-1, Navo UZ
+http://kineskop.tv/?page=watch&ch=506
+
+#EXTINF:-1, Oilaviy UZ
+http://kineskop.tv/?page=watch&ch=515
+
+#EXTINF:-1, Sport UZ
+http://kineskop.tv/?page=watch&ch=516
+
+#EXTINF:-1, Toshkent UZ
+http://kineskop.tv/?page=watch&ch=517
+
+#EXTINF:-1, Uzbekistan UZ
+http://kineskop.tv/?page=watch&ch=518
+
+#EXTINF:-1, Uzbekistan 24 UZ
+http://kineskop.tv/?page=watch&ch=519
+
+#EXTINF:-1, ТНВ Планета TA
+http://kineskop.tv/?page=watch&ch=520
+
+#EXTINF:-1, Tele 5 PL
+http://kineskop.tv/?page=watch&ch=522
+
+#EXTINF:-1, Polonia 1 PL
+http://kineskop.tv/?page=watch&ch=523
+
+#EXTINF:-1, Беларусь 1 BY
+http://kineskop.tv/?page=watch&ch=567
+
+#EXTINF:-1, Беларусь 2 BY
+http://kineskop.tv/?page=watch&ch=570
+
+#EXTINF:-1, Беларусь 3 BY
+http://kineskop.tv/?page=watch&ch=571
+
+#EXTINF:-1, Беларусь 5 BY
+http://kineskop.tv/?page=watch&ch=572
+
+#EXTINF:-1, ОНТ BY
+http://kineskop.tv/?page=watch&ch=568
+
+#EXTINF:-1, СТВ BY
+http://kineskop.tv/?page=watch&ch=569
+

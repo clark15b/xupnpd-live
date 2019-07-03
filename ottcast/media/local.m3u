@@ -1,0 +1,10 @@
+#EXTM3U source=broadcast cache=1M name="Сериалы"
+
+#EXTINF:-1 loop=true,Music
+/home/shocker/Видео/Music/
+
+#EXTINF:-1 loop=true,Sport
+/home/shocker/Видео/Sport/
+
+#EXTINF:-1 loop=true,Как я встретил вашу маму
+/home/shocker/Видео/Series/

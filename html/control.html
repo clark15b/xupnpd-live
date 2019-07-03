@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>control</title>
+<style>
+select {
+    width: 300px;
+}
+</style>
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+
+<script src="control.js"></script>
+
+</head>
+
+<body onload="getTags(); getChannels(1); scan();">
+
+Плееры в сети:<br>
+<select id="players"></select>
+
+<input id="refresh" value="Найти" onclick="scan()" type="button"/>
+
+<input id="stop" value="Стоп" onclick="stop()" type="button"/>
+
+<br><br>
+
+<b><a href="/index.lua">[Назад]</a></b><br><br>
+
+<div id="tags"></div><br>
+
+Список каналов:<br>
+<div id="channels"></div>
+
+<br><b><a href="/index.lua">[Назад]</a></b>
+
+</body>
+
+</html>

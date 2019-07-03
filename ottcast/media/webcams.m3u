@@ -1,0 +1,73 @@
+#EXTM3U source=hls cache=2M name="Webcams"
+
+#EXTINF:0, Abbey Road
+http://videos3.earthcam.com/fecnetwork/AbbeyRoadHD1.flv/playlist.m3u8
+
+#EXTINF:0, Saipan Beach
+http://videos3.earthcam.com/fecnetwork/10610.flv/playlist.m3u8
+
+#EXTINF:0, Times Square
+http://videos3.earthcam.com/fecnetwork/hdtimes10.flv/playlist.m3u8
+
+#EXTINF:0, Budapest
+http://videos3.earthcam.com/fecnetwork/15041.flv/playlist.m3u8
+
+#EXTINF:0, Tokyo
+http://videos3.earthcam.com/fecnetwork/tokyo1.flv/playlist.m3u8
+
+#EXTINF:0, Toronto
+http://videos3.earthcam.com/fecnetwork/9299.flv/playlist.m3u8
+
+#EXTINF:0, New Zealand
+http://videos3.earthcam.com/fecnetwork/9189.flv/playlist.m3u8
+
+#EXTINF:0, Jerusalem
+http://videos3.earthcam.com/fecnetwork/7949.flv/playlist.m3u8
+
+#EXTINF:0, Miami beach
+http://videos3.earthcam.com/fecnetwork/3273.flv/playlist.m3u8
+
+#EXTINF:0, New Orleans
+http://videos3.earthcam.com/fecnetwork/4282.flv/playlist.m3u8
+
+#EXTINF:0, Lauderdale By The Sea
+http://videos3.earthcam.com/fecnetwork/9313.flv/playlist.m3u8
+
+#EXTINF:0, Wall Street
+http://videos3.earthcam.com/fecnetwork/chargingbull.flv/playlist.m3u8
+
+#EXTINF:0, Brooklyn Bridge
+http://videos3.earthcam.com/fecnetwork/3983.flv/playlist.m3u8
+
+#EXTINF:0, Chicago
+http://videos3.earthcam.com/fecnetwork/13661.flv/playlist.m3u8
+
+#EXTINF:0, Statue of Liberty
+http://videos3.earthcam.com/fecnetwork/libertyHD1.flv/playlist.m3u8
+
+#EXTINF:0, Niagara Falls
+http://videos3.earthcam.com/fecnetwork/7382.flv/playlist.m3u8
+
+#EXTINF:0, Gas Monkey Garage
+http://videos3.earthcam.com/fecnetwork/13077.flv/playlist.m3u8
+
+#EXTINF:0, Polar Bear
+http://videos3.earthcam.com/fecnetwork/8715.flv/playlist.m3u8
+
+#EXTINF:0, Africa - Cat-EYE
+http://africacams-lh.akamaihd.net/i/Africam_CatEye@686099/master.m3u8
+
+#EXTINF:0, Africa - Nkorho
+http://africacams-lh.akamaihd.net/i/Africam_Nkorho@686100/master.m3u8
+
+#EXTINF:0, Africa - Olifants River
+http://africacams-lh.akamaihd.net/i/Africam_Olifants@686101/master.m3u8
+
+#EXTINF:0, Africa - Tembe
+http://stream.africam.com:1935/tm/tm.stream_source/playlist.m3u8
+
+#EXTINF:0, Africa - Black Eagle
+http://stream.africam.com:1935/be/be.stream_source/playlist.m3u8
+
+#EXTINF:0, My cam
+http://video1.earthcam.com/myearthcam/6dce4e86619be865f1a8df873a136a9f.flv/playlist.m3u8
