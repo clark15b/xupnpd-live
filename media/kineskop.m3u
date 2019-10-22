@@ -1,4 +1,4 @@
-#EXTM3U via=kineskop refresh=300 tvg-name="TV"
+#EXTM3U via=kineskop refresh=300 tvg-name="Kineskop"
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/perviy_1_kanal.png", Первый Канал
 http://kineskop.tv/?page=watch&ch=119
@@ -33,7 +33,7 @@ http://kineskop.tv/?page=watch&ch=375
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/rossiya_1.png", Россия 1 +6
 http://kineskop.tv/?page=watch&ch=432
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/rtr_planeta.png", РТР-Планета
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/rtr_planeta_ru.png", РТР-Планета
 http://kineskop.tv/?page=watch&ch=42
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/rossiya_kultura.png", Россия К
@@ -56,6 +56,9 @@ http://kineskop.tv/?page=watch&ch=435
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/ntv_world_ru.png", НТВ Мир
 http://kineskop.tv/?page=watch&ch=179
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/tv_centr_ru.png", ТВЦ +2
+http://kineskop.tv/?page=watch&ch=809
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/tnt_ru.png", ТНТ
 http://kineskop.tv/?page=watch&ch=114
@@ -96,8 +99,23 @@ http://kineskop.tv/?page=watch&ch=718
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/telekanal_zvezda_ru.png", Звезда
 http://kineskop.tv/?page=watch&ch=49
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/tnt_ru_4.png", ТНТ 4
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/telekanal_zvezda_ru.png", Звезда +2
+http://kineskop.tv/?page=watch&ch=802
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/telekanal_zvezda_ru.png", Звезда +4
+http://kineskop.tv/?page=watch&ch=801
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/domashniy_ru.png", Домашний +2
+http://kineskop.tv/?page=watch&ch=807
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/domashniy_ru.png", Домашний +4
+http://kineskop.tv/?page=watch&ch=800
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/tnt_ru_4.png", ТНТ4
 http://kineskop.tv/?page=watch&ch=93
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/tnt4-ru.png", ТНТ4 +2
+http://kineskop.tv/?page=watch&ch=805
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/perviy_4_vremya_ru.png", Время
 http://kineskop.tv/?page=watch&ch=120
@@ -117,6 +135,9 @@ http://kineskop.tv/?page=watch&ch=439
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/kanal5_petersburg.png", 5 Канал
 http://kineskop.tv/?page=watch&ch=106
 
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/5_kanal_ru.png", 5 Канал +2
+http://kineskop.tv/?page=watch&ch=808
+
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/sankt_peterburg_ru.png", Санкт-Петербург
 http://kineskop.tv/?page=watch&ch=466
 
@@ -132,14 +153,14 @@ http://kineskop.tv/?page=watch&ch=111
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/mir_ru.png", Мир
 http://kineskop.tv/?page=watch&ch=122
 
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/mir_ru_plus4.png", Мир +4
+http://kineskop.tv/?page=watch&ch=803
+
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/anekdot_tv_ru.png", Анекдот ТВ
 http://kineskop.tv/?page=watch&ch=778
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/mir_ru.png", Мир HD
 http://kineskop.tv/?page=watch&ch=460
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/c7f03d7acaaa561186c2ee48a4d12702.jpg", Сериал UHD 4k
-http://kineskop.tv/?page=watch&ch=683
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/rtvi_eu.png", RTVi
 http://kineskop.tv/?page=watch&ch=182
@@ -195,20 +216,23 @@ http://kineskop.tv/?page=watch&ch=648
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/world_fashion_channel_int.png", World Fashion Channel International HD
 http://kineskop.tv/?page=watch&ch=652
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/fashion-4k-us.png", Fashion One 4K
-http://kineskop.tv/?page=watch&ch=665
-
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/telekanal_teatr_ru.png", Телеканал Театр
 http://kineskop.tv/?page=watch&ch=649
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/e-ru.png", E HD
 http://kineskop.tv/?page=watch&ch=678
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/ntv_plus_home_4k.png", Home 4k
-http://kineskop.tv/?page=watch&ch=667
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/sea-tv-lv.png", Sea TV
+http://kineskop.tv/?page=watch&ch=790
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/insight-hd-nl.png", Insight UHD 4k
-http://kineskop.tv/?page=watch&ch=687
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/poehali_telekanal_ru.png", Поехали!
+http://kineskop.tv/?page=watch&ch=788
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/draiv_ru.png", Драйв
+http://kineskop.tv/?page=watch&ch=789
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/kaleidoskop_tv_ru.png", Калейдоскоп ТВ
+http://kineskop.tv/?page=watch&ch=791
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/rossiya_24.png", Россия_24
 http://kineskop.tv/?page=watch&ch=80
@@ -273,6 +297,9 @@ http://kineskop.tv/?page=watch&ch=479
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nauka20_ru.png", Наука 2.0
 http://kineskop.tv/?page=watch&ch=109
 
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nauka_ru.png", Наука 2.0 HD
+http://kineskop.tv/?page=watch&ch=828
+
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/discovery_science.png", Discovery Science
 http://kineskop.tv/?page=watch&ch=206
 
@@ -294,7 +321,7 @@ http://kineskop.tv/?page=watch&ch=430
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/galaxy_tv_ru.png", Galaxy HD
 http://kineskop.tv/?page=watch&ch=775
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/history-explorer.png", Viasat Nature/History HD
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/21f18ed3_sm.png", Viasat Nature/History HD
 http://kineskop.tv/?page=watch&ch=528
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/domashnie_zhivotnye.png", Домашние животные
@@ -306,7 +333,7 @@ http://kineskop.tv/?page=watch&ch=56
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/istoriya_telekanal_ru.png", История
 http://kineskop.tv/?page=watch&ch=275
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/history_ru.png", History
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/history_us.png", History
 http://kineskop.tv/?page=watch&ch=10
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/history_us.png", History HD
@@ -318,7 +345,10 @@ http://kineskop.tv/?page=watch&ch=664
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/moya_planeta_ru.png", Моя Планета
 http://kineskop.tv/?page=watch&ch=101
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/travel_channel_europe.png", Travel
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/planeta_hd_ru.png", Планета HD
+http://kineskop.tv/?page=watch&ch=533
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/travel_channel_us.png", Travel
 http://kineskop.tv/?page=watch&ch=7
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/travel_channel_europe_hd.png", Travel HD
@@ -339,10 +369,10 @@ http://kineskop.tv/?page=watch&ch=463
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/zagorodnaya_zhizn.png", Загородная жизнь
 http://kineskop.tv/?page=watch&ch=11
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/stream_usadba_telekanal.png", Усадьба
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/usadba-ru.png", Усадьба
 http://kineskop.tv/?page=watch&ch=38
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/okhota_i_rybalka.png", Охота и рыбалка
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/okhota-i-rybalka-ru.png", Охота и рыбалка
 http://kineskop.tv/?page=watch&ch=34
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/dialogi_o_rybalke_ru.png", Диалоги о Рыбалке
@@ -402,8 +432,8 @@ http://kineskop.tv/?page=watch&ch=215
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/soversheno_sekretno_ru.png", Совершенно Секретно
 http://kineskop.tv/?page=watch&ch=216
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/english_club_tv.png", English Club HD
-http://kineskop.tv/?page=watch&ch=767
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/english_club_tv.png", English Club
+http://kineskop.tv/?page=watch&ch=264
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/avto24_ru.png", Авто 24
 http://kineskop.tv/?page=watch&ch=288
@@ -450,9 +480,6 @@ http://kineskop.tv/?page=watch&ch=175
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/zhivaya_priroda_ru.png", Живая Природа HD
 http://kineskop.tv/?page=watch&ch=134
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/planeta_hd_ru.png", Планета HD
-http://kineskop.tv/?page=watch&ch=533
-
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/v-mire-zhivotnykh-ru.png", В мире животных HD
 http://kineskop.tv/?page=watch&ch=534
 
@@ -471,9 +498,6 @@ http://kineskop.tv/?page=watch&ch=779
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/glazami-turista-ru.png", Глазами Туриста HD
 http://kineskop.tv/?page=watch&ch=552
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/a_media_ru_hit.png", Amedia Hit HD
-http://kineskop.tv/?page=watch&ch=553
-
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/ntv_ru_pravo.png", НТВ Право
 http://kineskop.tv/?page=watch&ch=547
 
@@ -486,20 +510,8 @@ http://kineskop.tv/?page=watch&ch=560
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/zhivi.png", Живи!
 http://kineskop.tv/?page=watch&ch=118
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/match_ru_tv.png", Матч!
-http://kineskop.tv/?page=watch&ch=81
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/match_ru_tv.png", Матч! HD
-http://kineskop.tv/?page=watch&ch=287
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/futbol_ua_1.png", Футбол 1
-http://kineskop.tv/?page=watch&ch=123
-
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/futbol_ua_1.png", Футбол 1 HD
 http://kineskop.tv/?page=watch&ch=573
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/futbol_ua_2.png", Футбол 2
-http://kineskop.tv/?page=watch&ch=172
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/futbol_ua_2.png", Футбол 2 HD
 http://kineskop.tv/?page=watch&ch=574
@@ -510,23 +522,11 @@ http://kineskop.tv/?page=watch&ch=270
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nash_futbol_ru.png", Матч! Премьер HD
 http://kineskop.tv/?page=watch&ch=524
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/viasat_sport_se.png", Viasat Sport HD
-http://kineskop.tv/?page=watch&ch=529
-
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/match_ru_igra.png", Матч! Игра HD
 http://kineskop.tv/?page=watch&ch=174
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/boks_tv_ru.png", Бокс ТВ
 http://kineskop.tv/?page=watch&ch=448
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/Eurosport_4K.png", Eurosport 4k
-http://kineskop.tv/?page=watch&ch=684
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/eurosport_fr_1.png", Eurosport 1
-http://kineskop.tv/?page=watch&ch=90
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/eurosport_fr_1.png", Eurosport 1 HD
-http://kineskop.tv/?page=watch&ch=176
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/eurosport_fr_2.png", Eurosport 2
 http://kineskop.tv/?page=watch&ch=91
@@ -540,6 +540,9 @@ http://kineskop.tv/?page=watch&ch=513
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/setanta_sports_eurasia_plus.png", Сетанта Спорт+ HD
 http://kineskop.tv/?page=watch&ch=514
 
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/setantaua.png", Сетанта Спорт UA HD
+http://kineskop.tv/?page=watch&ch=796
+
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/extreme_sports.png", Extreme Sports
 http://kineskop.tv/?page=watch&ch=211
 
@@ -549,9 +552,6 @@ http://kineskop.tv/?page=watch&ch=482
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/khl_ru.png", КХЛ
 http://kineskop.tv/?page=watch&ch=228
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/khl_ru.png", КХЛ HD
-http://kineskop.tv/?page=watch&ch=456
-
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/konniy_mir_ru.png", Конный Мир HD
 http://kineskop.tv/?page=watch&ch=322
 
@@ -560,9 +560,6 @@ http://kineskop.tv/?page=watch&ch=371
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/russian_extreme_ru.png", Русский Экстрим HD
 http://kineskop.tv/?page=watch&ch=539
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/russian_extreme_ru.png", Русский Экстрим UHD 4k
-http://kineskop.tv/?page=watch&ch=685
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/fast_and_fun_box_hd.png", Fast&FunBox
 http://kineskop.tv/?page=watch&ch=562
@@ -582,6 +579,15 @@ http://kineskop.tv/?page=watch&ch=719
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/238232d3b3.jpeg", Мир баскетбола
 http://kineskop.tv/?page=watch&ch=739
 
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/1548181287_1496168223_sport1.png", Sport 1
+http://kineskop.tv/?page=watch&ch=786
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/1548180548_1496168329_sport2-ukraina.jpg", Sport 2
+http://kineskop.tv/?page=watch&ch=787
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/fight_sports_us.png", UFC HD
+http://kineskop.tv/?page=watch&ch=827
+
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/a_media_ru_1.png", A1
 http://kineskop.tv/?page=watch&ch=295
 
@@ -597,10 +603,10 @@ http://kineskop.tv/?page=watch&ch=139
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/a_media_ru_hit.png", Amedia Hit
 http://kineskop.tv/?page=watch&ch=336
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/kino_premium_ru_hd.png", Кино Премиум HD
-http://kineskop.tv/?page=watch&ch=471
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/a_media_ru_hit.png", Amedia Hit HD
+http://kineskop.tv/?page=watch&ch=553
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/e21c47d4eb9fab0d0f957bf441a8e2ad.png", Шокирующее HD
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/shokiruyushcheye-ru.png", Шокирующее HD
 http://kineskop.tv/?page=watch&ch=472
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/621.gif", Комедийное HD
@@ -618,8 +624,8 @@ http://kineskop.tv/?page=watch&ch=476
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nastoyashee_strashnoe_tv_ru.png", Настоящее Страшное ТВ
 http://kineskop.tv/?page=watch&ch=67
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nastroy_kino_ru_kino_svidanie.png", Киносвидание
-http://kineskop.tv/?page=watch&ch=196
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/kino_premium_ru_hd.png", Кино Премиум HD
+http://kineskop.tv/?page=watch&ch=471
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nastroy_kino_ru_kino_hit.png", Кинохит
 http://kineskop.tv/?page=watch&ch=233
@@ -645,13 +651,10 @@ http://kineskop.tv/?page=watch&ch=447
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/kino_tv_ru.png", Кино ТВ HD
 http://kineskop.tv/?page=watch&ch=274
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/kino-uhd-ru.png", Кино UHD 4k
-http://kineskop.tv/?page=watch&ch=686
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/channel!0uad.jpg", Hollywood
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/1553193212_hollywood.png", Hollywood
 http://kineskop.tv/?page=watch&ch=660
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/channel!024y.jpg", Hollywood HD
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/hollywood-hd-us-ru.png", Hollywood HD
 http://kineskop.tv/?page=watch&ch=249
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/cbs_reality_eu.png", CBS Reality
@@ -659,6 +662,9 @@ http://kineskop.tv/?page=watch&ch=209
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/paramount_channel_us.png", Paramount Channel
 http://kineskop.tv/?page=watch&ch=75
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/paramount_channel_us.png", Paramount Channel HD
+http://kineskop.tv/?page=watch&ch=826
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/paramount_comedy_ru.png", Paramount Comedy
 http://kineskop.tv/?page=watch&ch=113
@@ -717,7 +723,7 @@ http://kineskop.tv/?page=watch&ch=421
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nastroy_kino_ru_kino_medija.png", Кинокомедия
 http://kineskop.tv/?page=watch&ch=185
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/mir_seriala.png", Мир Сериала
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/mir_seriala_ru.png", Мир Сериала
 http://kineskop.tv/?page=watch&ch=40
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/ntv_ru_serial.png", НТВ Сериал
@@ -726,10 +732,13 @@ http://kineskop.tv/?page=watch&ch=468
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/super-ru.png", Супер
 http://kineskop.tv/?page=watch&ch=314
 
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/super-ru.png", Супер +2
+http://kineskop.tv/?page=watch&ch=804
+
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/fenix_plus_kino.png", Феникс+Кино
 http://kineskop.tv/?page=watch&ch=777
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/enter_film.png", Enter Film
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/enter_film_ua.png", Enter Film
 http://kineskop.tv/?page=watch&ch=9
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/sony_turbo_ru.png", Sony Turbo
@@ -741,16 +750,13 @@ http://kineskop.tv/?page=watch&ch=86
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/sony_scifi_ru.png", Sony Sci-Fi
 http://kineskop.tv/?page=watch&ch=87
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/d70d8f313d1b9e068e50d8fbf690dd97.png", Ultra HD Cinema 4k
-http://kineskop.tv/?page=watch&ch=681
-
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nastroy_kino_ru_kino_seriya.png", Киносерия
 http://kineskop.tv/?page=watch&ch=188
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/amc_us.png", AMC
 http://kineskop.tv/?page=watch&ch=207
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/", Shot TV
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/shot-tv.gif", Shot TV
 http://kineskop.tv/?page=watch&ch=232
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nashe_lubimoe_kino.png", Любимое Кино
@@ -798,6 +804,9 @@ http://kineskop.tv/?page=watch&ch=656
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/atv_tr_2.png", A2 HD
 http://kineskop.tv/?page=watch&ch=689
 
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nastroy_kino_ru_kino_svidanie.png", Киносвидание
+http://kineskop.tv/?page=watch&ch=196
+
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nickelodeon_cis.png", Nickelodeon
 http://kineskop.tv/?page=watch&ch=62
 
@@ -822,7 +831,7 @@ http://kineskop.tv/?page=watch&ch=262
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/tlum_ru.png", Тлум HD
 http://kineskop.tv/?page=watch&ch=488
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/ff5dd7e44b0eddf1b1399f769b5ffa2e.jpg", Капитан Фантастика HD
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/kapitan-fantastika-ru.png", Капитан Фантастика HD
 http://kineskop.tv/?page=watch&ch=713
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/multik_ru.png", Мультик HD
@@ -834,11 +843,11 @@ http://kineskop.tv/?page=watch&ch=278
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/multimania_ru.png", Мультимания
 http://kineskop.tv/?page=watch&ch=105
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/karusel_tv.png", Карусель
-http://kineskop.tv/?page=watch&ch=61
-
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/sts-kids-ru.png", СТС Kids
 http://kineskop.tv/?page=watch&ch=682
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/karusel_tv.png", Карусель
+http://kineskop.tv/?page=watch&ch=61
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/karusel_tv.png", Карусель +2
 http://kineskop.tv/?page=watch&ch=440
@@ -857,6 +866,9 @@ http://kineskop.tv/?page=watch&ch=538
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/telekanal_2x2_ru.png", 2x2
 http://kineskop.tv/?page=watch&ch=89
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/telekanal_2x2_ru.png", 2x2 +2
+http://kineskop.tv/?page=watch&ch=806
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/detskij.png", Детский
 http://kineskop.tv/?page=watch&ch=60
@@ -885,9 +897,6 @@ http://kineskop.tv/?page=watch&ch=543
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/telekanal_o_ru.png", О!
 http://kineskop.tv/?page=watch&ch=546
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/penguin_lolo_tv_ru.png", Пингвин LOLO
-http://kineskop.tv/?page=watch&ch=650
-
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/523535eb04bd68a8137abff63d6d6be2.png", Fan HD
 http://kineskop.tv/?page=watch&ch=679
 
@@ -900,7 +909,7 @@ http://kineskop.tv/?page=watch&ch=742
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/europa_plus_tv.png", Europa Plus TV
 http://kineskop.tv/?page=watch&ch=112
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/tnt_ru_music.png", ТНТ Music
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/tnt-music-ru.png", ТНТ Music
 http://kineskop.tv/?page=watch&ch=44
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nashe_ru.png", Наше ТВ
@@ -909,7 +918,7 @@ http://kineskop.tv/?page=watch&ch=467
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/muz_tv.png", Муз ТВ
 http://kineskop.tv/?page=watch&ch=317
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/music_box_ua.png", Music Box UA
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/music-box-ukraina-ua.png", Music Box UA
 http://kineskop.tv/?page=watch&ch=28
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/m1_ua.png", M1
@@ -939,7 +948,7 @@ http://kineskop.tv/?page=watch&ch=136
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/vh1_global.png", VH1 Europe
 http://kineskop.tv/?page=watch&ch=107
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/mezzo.png", Mezzo
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/mezzo-fr.png", Mezzo
 http://kineskop.tv/?page=watch&ch=267
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/mezzo_live_hd.png", Mezzo Live HD
@@ -978,10 +987,7 @@ http://kineskop.tv/?page=watch&ch=453
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/bridge-tv-russkiy-hit-ru.png", Bridge TV Русский Хит
 http://kineskop.tv/?page=watch&ch=320
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/russian_music_box.png", Russian MusicBox
-http://kineskop.tv/?page=watch&ch=380
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/shanson_tv.png", Шансон ТВ
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/shanson_tv_ru.png", Шансон ТВ
 http://kineskop.tv/?page=watch&ch=25
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/telekanal_la_minor.png", Ля Минор
@@ -993,7 +999,7 @@ http://kineskop.tv/?page=watch&ch=540
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/stingray-iconcerts-ca.png", Stingray IConcerts HD
 http://kineskop.tv/?page=watch&ch=663
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/o2_tv_ru.png", О2ТВ
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/o2_tv_ru.png", О!2 HD
 http://kineskop.tv/?page=watch&ch=680
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/eu_music_tv_ua.png", EU Music HD
@@ -1008,7 +1014,7 @@ http://kineskop.tv/?page=watch&ch=171
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/inter_plus_ua.png", Интер+
 http://kineskop.tv/?page=watch&ch=35
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/pershiy_nacionalniy_ua.png", Первый национальный
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/pershiy_nacionalniy_ua.png", UA:Перший
 http://kineskop.tv/?page=watch&ch=1
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/trk_ukraina.png", ТРК Украина
@@ -1059,7 +1065,7 @@ http://kineskop.tv/?page=watch&ch=258
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/112_ukraina.png", 112 Украина HD
 http://kineskop.tv/?page=watch&ch=259
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/hromadske_icon.png", Громадське ТВ
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/hromadske_tv_ua.png", Громадське ТВ
 http://kineskop.tv/?page=watch&ch=369
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/kvartal_95_tv_ua.png", Квартал ТВ
@@ -1077,16 +1083,19 @@ http://kineskop.tv/?page=watch&ch=26
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/news24_ua.png", News 24
 http://kineskop.tv/?page=watch&ch=169
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/espreso_tv_ua.png", Espreso TV
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/unian_tv_ua.png", Униан ТВ
+http://kineskop.tv/?page=watch&ch=22
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/espreso_tv_ua.png", Еспресо ТВ
 http://kineskop.tv/?page=watch&ch=284
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/pershiy_avtomobilniy_ua.png", Первый автомобильный HD
 http://kineskop.tv/?page=watch&ch=651
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/ArticleImage_142376.jpg", НАШ
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nash-ua.png", НАШ
 http://kineskop.tv/?page=watch&ch=18
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/news_one_channel.png", News One
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/newsone-ua.png", News One
 http://kineskop.tv/?page=watch&ch=23
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/zoom_tv_ua.png", Zoom
@@ -1125,17 +1134,20 @@ http://kineskop.tv/?page=watch&ch=416
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/dacha_tv_ua.png", Дача UA
 http://kineskop.tv/?page=watch&ch=418
 
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/trofey_ua.png", Трофей UA
+http://kineskop.tv/?page=watch&ch=271
+
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/ua_tv_ua.png", UA TV
 http://kineskop.tv/?page=watch&ch=536
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/chernomorskaya_tv_ua.png", Черноморская ТРК
 http://kineskop.tv/?page=watch&ch=537
 
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/pravda_tyt_ua.png", Правда ТУТ
-http://kineskop.tv/?page=watch&ch=542
-
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/8-kanal-ua.png", 8 Канал UA
 http://kineskop.tv/?page=watch&ch=584
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/che_pe_info.png", ЧП инфо
+http://kineskop.tv/?page=watch&ch=816
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/267px-Belarus-1.jpg", Беларусь 1 BY
 http://kineskop.tv/?page=watch&ch=567
@@ -1149,14 +1161,14 @@ http://kineskop.tv/?page=watch&ch=571
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/1497000853_5.png", Беларусь 5 BY
 http://kineskop.tv/?page=watch&ch=572
 
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/1497000853_5.png", Беларусь 5 HD
+http://kineskop.tv/?page=watch&ch=795
+
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/belarus_by_24.png", Беларусь 24 HD
 http://kineskop.tv/?page=watch&ch=180
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/267px-ONT_logo.jpg", ОНТ BY
 http://kineskop.tv/?page=watch&ch=568
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/AAuE7mD1o7TD7bom6d6fo9Y1Lx986UPP1Wjpgy8svQ=s900-mo-c-c0xffffffff-rj-k-no", iLand IL
-http://kineskop.tv/?page=watch&ch=657
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/deutsche_welle_tv_de.png", DW Deutsch
 http://kineskop.tv/?page=watch&ch=484
@@ -1179,6 +1191,24 @@ http://kineskop.tv/?page=watch&ch=511
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/vox_de.png", VOX Deutschland
 http://kineskop.tv/?page=watch&ch=512
 
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/sky_de_sport.png", Sky Sport 1 HD
+http://kineskop.tv/?page=watch&ch=793
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/zdf_info.png", ZDF info
+http://kineskop.tv/?page=watch&ch=817
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/zdf-neo-de.png", ZDF Neo
+http://kineskop.tv/?page=watch&ch=818
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/rtl_plus_de.png", RTL plus Deutschland
+http://kineskop.tv/?page=watch&ch=819
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nitro_de.png", Nitro Deutschland
+http://kineskop.tv/?page=watch&ch=820
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/sky_de_cinema_plus24.png", Sky Cinema +24 De
+http://kineskop.tv/?page=watch&ch=821
+
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/itv_uk.png", ITV UK
 http://kineskop.tv/?page=watch&ch=626
 
@@ -1190,42 +1220,6 @@ http://kineskop.tv/?page=watch&ch=628
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/bbc_two_uk.png", BBC Two England UK
 http://kineskop.tv/?page=watch&ch=629
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/france2-fr.png", France 2 HD FR
-http://kineskop.tv/?page=watch&ch=631
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/france3-fr.png", France 3 HD FR
-http://kineskop.tv/?page=watch&ch=633
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/france4-fr.png", France 4 HD FR
-http://kineskop.tv/?page=watch&ch=632
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/france5-fr.png", France 5 HD FR
-http://kineskop.tv/?page=watch&ch=639
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/france-o-fr.png", France Ô FR
-http://kineskop.tv/?page=watch&ch=634
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/6ter_fr.png", 6ter HD FR
-http://kineskop.tv/?page=watch&ch=640
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/m6_fr.png", M6 HD FR
-http://kineskop.tv/?page=watch&ch=636
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/w9_fr.png", W9 HD FR
-http://kineskop.tv/?page=watch&ch=637
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/arte_fr.png", Arte Français HD FR
-http://kineskop.tv/?page=watch&ch=638
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/tf1.png", TF-1 HD FR
-http://kineskop.tv/?page=watch&ch=641
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/nrj_fr_12.png", NRJ 12 HD FR
-http://kineskop.tv/?page=watch&ch=642
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/tmc_mc.png", TMC HD FR
-http://kineskop.tv/?page=watch&ch=643
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/tele5_pl.png", Tele 5 PL
 http://kineskop.tv/?page=watch&ch=522
@@ -1244,9 +1238,6 @@ http://kineskop.tv/?page=watch&ch=462
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/shant_tv_am.png", Shant News
 http://kineskop.tv/?page=watch&ch=367
-
-#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/khabar_kz.png", Хабар KZ
-http://kineskop.tv/?page=watch&ch=349
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/24_kz.png", Хабар 24 KZ
 http://kineskop.tv/?page=watch&ch=389
@@ -1338,6 +1329,9 @@ http://kineskop.tv/?page=watch&ch=599
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/marneuli_tv_ge.png", Marneuli TV Geo
 http://kineskop.tv/?page=watch&ch=600
 
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/rustavi_2_ge.png", Rustavi 2
+http://kineskop.tv/?page=watch&ch=825
+
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/dalga-az.png", Dalga Aze
 http://kineskop.tv/?page=watch&ch=601
 
@@ -1392,11 +1386,17 @@ http://kineskop.tv/?page=watch&ch=708
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/trt_muzik.png", TRT Müzik TR
 http://kineskop.tv/?page=watch&ch=709
 
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/trt_muzik.png", TRT Müzik HD TR
+http://kineskop.tv/?page=watch&ch=824
+
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/trt_spor_tr.png", TRT Spor TR
 http://kineskop.tv/?page=watch&ch=710
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/trt_spor_tr.png", TRT Spor HD TR
 http://kineskop.tv/?page=watch&ch=691
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/trt-spor-2-tr.png", TRT Spor 2 HD TR
+http://kineskop.tv/?page=watch&ch=823
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/trt_cocuk.png", TRT Çocuk HD TR
 http://kineskop.tv/?page=watch&ch=688
@@ -1460,4 +1460,19 @@ http://kineskop.tv/?page=watch&ch=716
 
 #EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/trt_haber.png", TRT Haber HD TR
 http://kineskop.tv/?page=watch&ch=717
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/moldova-1-md.png", Moldova 1 Mol HD
+http://kineskop.tv/?page=watch&ch=792
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/jurnal_tv.png", Jurnal TV HD Moldova
+http://kineskop.tv/?page=watch&ch=798
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/rtr-moldova-ru-md.png", RTR Moldova HD
+http://kineskop.tv/?page=watch&ch=799
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/tvt_tj.png", Tojikiston HD
+http://kineskop.tv/?page=watch&ch=814
+
+#EXTINF:-1 tvg-logo="http://kineskop.tv/icon_cache/kbs_world_kr.png", KBS World HD
+http://kineskop.tv/?page=watch&ch=815
 

@@ -66,8 +66,10 @@ void m3u8::node::parse_attr(const char* s)
 void m3u8::node::set(const std::string& name,std::string& value)
 {
     if(name=="tvg-name")
-        node::name.swap(value);
-    else if(name=="stream")
+    {
+        if(!value.empty())
+            node::name.swap(value);
+    }else if(name=="stream")
         stream=atoi(value.c_str());
     else if(name=="via")
         via.swap(value);
