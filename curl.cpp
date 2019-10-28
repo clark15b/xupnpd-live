@@ -133,7 +133,7 @@ bool curl::connection::ssl_disconnect(void)
 
 ssize_t curl::connection::ssl_recv(int fd,char* buf,size_t len)
 {
-    for(int i=0;i<10;i++)
+    for(int i=0;i<50;i++)
     {
         int rc=mbedtls_ssl_read(&ssl,(unsigned char*)buf,len);
 
@@ -165,7 +165,7 @@ ssize_t curl::connection::ssl_recv(int fd,char* buf,size_t len)
 
 ssize_t curl::connection::ssl_send(int fd,const char* buf,size_t len)
 {
-    for(int i=0;i<10;i++)
+    for(int i=0;i<50;i++)
     {
         int rc=mbedtls_ssl_write(&ssl,(const unsigned char*)buf,len);
 
