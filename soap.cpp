@@ -71,7 +71,7 @@ static int lua_xml_parse(lua_State* L)
 
         virtual void beg(const std::string& tag,const std::string& attr)
         {
-            lua_pushnumber(L,++cn.back());
+            lua_pushinteger(L,++cn.back());
             lua_newtable(L);
 
             lua_pushstring(L,"name"); lua_pushlstring(L,tag.c_str(),tag.length()); lua_rawset(L,-3);

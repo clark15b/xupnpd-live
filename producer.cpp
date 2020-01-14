@@ -5,6 +5,7 @@
  */
 
 #include "producer.h"
+#include "luacompat.h"
 #include <sys/types.h>
 #include <unistd.h>
 #include <stdio.h>

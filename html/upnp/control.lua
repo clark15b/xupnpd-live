@@ -15,6 +15,11 @@ postfix='</DIDL-Lite>'
 
 alt_logo=false
 
+function gettablesize(t)
+--    return table.getn(t)
+    return #t
+end
+
 function services.cds.GetSystemUpdateID()
     return {{'Id',update_id}}
 end
@@ -38,7 +43,7 @@ end
 function iter(t,from,total)
     local i = from
 
-    local n = table.getn(t)
+    local n = gettablesize(t)
 
     if total>0 then n=from+total end
 
@@ -52,7 +57,7 @@ end
 function serialize(id,parent,o)
     if o.channels then
         return string.format('<container id="%s" childCount="%s" parentID="%s" restricted="true"><dc:title>%s</dc:title><upnp:class>object.container</upnp:class></container>',
-            id,table.getn(o.channels),parent,soap_escape_xml(o.name))
+            id,gettablesize(o.channels),parent,soap_escape_xml(o.name))
     else
         -- DLNA.ORG_PN=MPEG_TS_HD_NA;DLNA.ORG_OP=11;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01700000000000000000000000000000
 
@@ -149,7 +154,7 @@ function services.cds.Browse(s)
         found=1 total=1
         table.insert(tt,serialize(id,parent,p))
     else
-        total=table.getn(p)
+        total=gettablesize(p)
 
 
         for oo,ii in iter(p,tonumber(s.StartingIndex.value),tonumber(s.RequestedCount.value)) do

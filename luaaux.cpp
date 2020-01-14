@@ -45,7 +45,7 @@ int lua::lua_playlist(lua_State* L)
 
     for(std::map<int,m3u8::node>::const_iterator it=m3u8::playlist::get().folders.begin();it!=m3u8::playlist::get().folders.end();++it)
     {
-        lua_pushnumber(L,it->second.id+1);
+        lua_pushinteger(L,it->second.id+1);
 
         lua_newtable(L);
 
@@ -58,7 +58,7 @@ int lua::lua_playlist(lua_State* L)
         const std::map<int,m3u8::node>& channels=it->second.channels;
 
         for(std::map<int,m3u8::node>::const_iterator cit=channels.begin();cit!=channels.end();++cit)
-            { lua_pushnumber(L,cit->second.id+1); lua_push_channel(L,&cit->second); lua_rawset(L,-3); }
+            { lua_pushinteger(L,cit->second.id+1); lua_push_channel(L,&cit->second); lua_rawset(L,-3); }
 
         lua_rawset(L,-3);
 
@@ -161,7 +161,7 @@ int lua::lua_ssdp_search(lua_State* L)
         int n=0;
 
         for(std::set<std::string>::const_iterator it=lst.begin();it!=lst.end();++it)
-            { lua_pushnumber(L,++n); lua_pushstring(L,it->c_str()); lua_rawset(L,-3); }
+            { lua_pushinteger(L,++n); lua_pushstring(L,it->c_str()); lua_rawset(L,-3); }
     }
 
     return 1;
@@ -233,9 +233,9 @@ void lua::init(lua_State* L)
 
     lua_register(L,"trace",lua_trace);
 
-    lua_pushnumber(L,config::debug); lua_setglobal(L,"debug");
+    lua_pushinteger(L,config::debug); lua_setglobal(L,"debug");
 
-    lua_pushnumber(L,config::update_id); lua_setglobal(L,"update_id");
+    lua_pushinteger(L,config::update_id); lua_setglobal(L,"update_id");
 
     lua_register(L,"ssdp_search",lua_ssdp_search);
 

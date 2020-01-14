@@ -6,6 +6,7 @@
 
 #include "config.h"
 #include "worker.h"
+#include "luacompat.h"
 #include <string.h>
 #include <unistd.h>
 #include <sys/types.h>
