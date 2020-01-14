@@ -1,5 +1,5 @@
 PLATFORM        = x86_64
-LUA             = lua-5.1.5
+LUA             = lua-5.3.5
 LIBS            = $(LUA)/liblua.a
 
 all: $(LIBS)
