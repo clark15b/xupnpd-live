@@ -15,7 +15,11 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <dirent.h>
+
+#if !defined(__FreeBSD__) && !defined(__APPLE__)
 #include <sys/sendfile.h>
+#endif
+
 #include <fcntl.h>
 #include <errno.h>
 #include <time.h>
@@ -133,11 +137,30 @@ bool ott::worker::read_http_request(void)
     if(req_line.size()==3 && req_line[2].length()==8 && !strncmp(req_line[2].c_str(),"HTTP/1.",7) && (req_line[2][7]=='0' || req_line[2][7]=='1'))
         return true;
 
+
     return false;
+}
+
+void ott::worker::fix_url(void)
+{
+    std::string& url=req_line[1];
+
+    if(!url.empty())
+    {
+        const char* s=url.c_str();
+
+        while(s[1]=='/')
+            s++;
+
+        if(s>url.c_str())
+            url=url.substr(s-url.c_str());
+    }
 }
 
 bool ott::worker::parse_url(void)
 {
+    fix_url();
+
     url=req_line[1];
 
     if(url[0]!='/' || url.find("../")!=std::string::npos)
@@ -190,14 +213,14 @@ bool ott::worker::parse_url(void)
 
 bool ott::worker::status(int code,const char* msg,bool ext)
 {
-    printf("HTTP/1.1 %i %s\r\n",code,msg);
-    printf("Server: %s\r\n",config::device_description.c_str());
-    printf("Date: %s\r\n",config::get_server_date().c_str());
-    printf("Connection: close\r\n");
-    printf("EXT:\r\n");
+    fprintf(stdout,"HTTP/1.1 %i %s\r\n",code,msg);
+    fprintf(stdout,"Server: %s\r\n",config::device_description.c_str());
+    fprintf(stdout,"Date: %s\r\n",config::get_server_date().c_str());
+    fprintf(stdout,"Connection: close\r\n");
+    fprintf(stdout,"EXT:\r\n");
 
     if(!ext)
-        { printf("\r\n"); fflush(stdout); }
+        { fprintf(stdout,"\r\n"); fflush(stdout); }
 
     return true;
 }
@@ -242,7 +265,7 @@ bool ott::worker::doit(void)
 
         fwrite(config::dlna_extras.c_str(),1,config::dlna_extras.length(),stdout);
 
-        printf("\r\n");
+        fprintf(stdout,"\r\n");
 
         fflush(stdout);
 
@@ -326,11 +349,42 @@ long ott::worker::get_file_size(int fd)
     return len;
 }
 
+#if defined(__FreeBSD__) || defined(__APPLE__)
+ssize_t sendfile(int out_fd,int in_fd,off_t*,size_t count)
+{
+    ssize_t total=0;
+
+    while(total<count)
+    {
+        char buf[2048];
+
+        size_t left=count-total;
+
+        ssize_t n=read(in_fd,buf,left>sizeof(buf)?sizeof(buf):left);
+
+        if(!n || n==-1)
+            break;
+
+        ssize_t m=write(out_fd,buf,n);
+
+        if(m==-1)
+            m=0;
+
+        total+=m;
+
+        if(m<n)
+            { lseek(in_fd,-(n-m),SEEK_CUR); break; }
+    }
+
+    return total;
+}
+#endif
+
 bool ott::worker::sendmedia(const std::string& path)
 {
-    int infd_fl=fcntl(0,F_GETFL); int outfd_fl=fcntl(1,F_GETFL);
+    int infd_fl=fcntl(fileno(stdin),F_GETFL); int outfd_fl=fcntl(fileno(stdout),F_GETFL);
 
-    fcntl(0,F_SETFL,infd_fl|O_NONBLOCK); fcntl(1,F_SETFL,outfd_fl|O_NONBLOCK);
+    fcntl(fileno(stdin),F_SETFL,infd_fl|O_NONBLOCK); fcntl(fileno(stdout),F_SETFL,outfd_fl|O_NONBLOCK);
 
     long seq=0;
 
@@ -342,9 +396,9 @@ bool ott::worker::sendmedia(const std::string& path)
 
     for(;;)
     {
-        int maxfd=0;
+        int maxfd=fileno(stdin);
 
-        fd_set rfdset; FD_ZERO(&rfdset); FD_SET(0,&rfdset);
+        fd_set rfdset; FD_ZERO(&rfdset); FD_SET(fileno(stdin),&rfdset);
 
         fd_set wfdset; FD_ZERO(&wfdset);
 
@@ -371,8 +425,14 @@ bool ott::worker::sendmedia(const std::string& path)
         timeval tv; tv.tv_usec=0;
 
         if(fd!=-1)
-            { FD_SET(1,&wfdset); maxfd=1; tv.tv_sec=config::tcp_snd_timeout; }
-        else
+        {
+            FD_SET(fileno(stdout),&wfdset);
+
+            if(fileno(stdout)>fileno(stdin))
+                maxfd=fileno(stdout);
+
+            tv.tv_sec=config::tcp_snd_timeout;
+        }else
             tv.tv_sec=1;
 
         int rc=select(maxfd+1,&rfdset,&wfdset,NULL,&tv);
@@ -387,23 +447,23 @@ bool ott::worker::sendmedia(const std::string& path)
             continue;
         }
 
-        if(FD_ISSET(0,&rfdset))
+        if(FD_ISSET(fileno(stdin),&rfdset))
         {
             char buf[config::tmp_buf_size];
 
-            int n=read(0,buf,sizeof(buf));
+            int n=read(fileno(stdin),buf,sizeof(buf));
 
             if(n==-1 || n==0)           // соединение закрыто
                 break;
         }
 
-        if(fd!=-1 && FD_ISSET(1,&wfdset))
+        if(fd!=-1 && FD_ISSET(fileno(stdout),&wfdset))
         {
-            ssize_t n=::sendfile(1,fd,NULL,len);
+            ssize_t n=::sendfile(fileno(stdout),fd,NULL,len);
 
             if(n==-1)
             {
-                if(errno==EAGAIN)
+                if(errno==EAGAIN || errno==EWOULDBLOCK)
                     continue;
                 else
                     break;
@@ -411,7 +471,7 @@ bool ott::worker::sendmedia(const std::string& path)
 
             len-=n;
 
-            if(len<1)
+            if(!n || len<1)
                 { close(fd); fd=-1; }
         }
     }
@@ -419,7 +479,7 @@ bool ott::worker::sendmedia(const std::string& path)
     if(fd!=-1)
         close(fd);
 
-    fcntl(0,F_SETFL,infd_fl); fcntl(1,F_SETFL,outfd_fl);
+    fcntl(fileno(stdin),F_SETFL,infd_fl); fcntl(fileno(stdout),F_SETFL,outfd_fl);
 
     return retval;
 }
@@ -452,17 +512,17 @@ bool ott::worker::sendfile(void)
 
     status(200,"OK",true);
 
-    printf("Content-Type: %s\r\n",config::get_mime_type(filetype));
+    fprintf(stdout,"Content-Type: %s\r\n",config::get_mime_type(filetype));
 
     if(!tmpl)
     {
-        printf("Content-Length: %lu\r\n\r\n",(unsigned long)len);
+        fprintf(stdout,"Content-Length: %lu\r\n\r\n",(unsigned long)len);
 
         fflush(stdout);
 
         while(len>0)
         {
-            ssize_t n=::sendfile(1,fd,NULL,len);
+            ssize_t n=::sendfile(fileno(stdout),fd,NULL,len);
 
             if(n==0 || n==-1)
                 break;
@@ -530,7 +590,7 @@ bool ott::worker::sendfile(void)
             }
         }
 
-        printf("Content-Length: %lu\r\n\r\n",(unsigned long)ss.length());
+        fprintf(stdout,"Content-Length: %lu\r\n\r\n",(unsigned long)ss.length());
 
         size_t l=0;
 
@@ -573,13 +633,13 @@ int ott::worker::lua_status(lua_State* L)
             const char* ss=lua_tostring(L,-1);
 
             if(ss)
-                printf("%s\r\n",ss);
+                fprintf(stdout,"%s\r\n",ss);
 
             lua_pop(L,1);
         }
     }
 
-    printf("\r\n"); fflush(stdout);
+    fprintf(stdout,"\r\n"); fflush(stdout);
 
     return 0;
 }

@@ -57,6 +57,8 @@ namespace ott
 
         bool read_http_request(void);
 
+        void fix_url(void);
+
         bool parse_url(void);
 
         bool status(int code,const char* msg,bool ext=false);

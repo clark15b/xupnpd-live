@@ -284,6 +284,8 @@ bool ott::server::doit(const std::string& addr,bool ssdp_reg)
             {
                 { int on=1; setsockopt(newfd,IPPROTO_TCP,TCP_NODELAY,(const char*)&on,sizeof(on)); }
 
+                fcntl(newfd,F_SETFL,fcntl(newfd,F_GETFL) & (~O_NONBLOCK));      // используем дескриптор в блокируемом режиме
+
                 pid_t pid=fork();
 
                 if(!pid)

@@ -12,6 +12,10 @@
 
 namespace common
 {
+#if defined(__FreeBSD__) || defined(__APPLE__)
+    typedef void (*sighandler_t)(int);
+#endif
+
     void signal(int signum,sighandler_t handler);
 
     void reset_signals(void);
