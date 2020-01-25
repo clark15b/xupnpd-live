@@ -16,7 +16,7 @@
 
 namespace common
 {
-    jmp_buf __jmp_lookup_env;
+    sigjmp_buf __jmp_lookup_env;
 
     void __jmp_lookup_handler(int)
         { siglongjmp(__jmp_lookup_env,1); }
