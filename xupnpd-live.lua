@@ -29,3 +29,7 @@ end
 function youtube(url)
     return string.gsub(string.match(http_get(url),'"hlsvp":"(.-%.m3u8)"'),'\\/','/')
 end
+
+function angelcam(url)
+     return string.match(http_get(url), "source: '(.-)',")
+end
